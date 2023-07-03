@@ -15,8 +15,6 @@
 		648963742A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648963732A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppTests.swift */; };
 		6489637E2A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489637D2A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppUITests.swift */; };
 		648963802A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489637F2A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppUITestsLaunchTests.swift */; };
-		648963972A4F63D900C7FA5D /* Sleep_button_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648963962A4F63D900C7FA5D /* Sleep_button_screen.swift */; };
-		648963992A4F641C00C7FA5D /* Wakeup_button_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648963982A4F641C00C7FA5D /* Wakeup_button_screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +67,6 @@
 		648963792A4F57DC00C7FA5D /* MiNap-Sleepwatch-front Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiNap-Sleepwatch-front Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6489637D2A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiNap_Sleepwatch_front_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		6489637F2A4F57DC00C7FA5D /* MiNap_Sleepwatch_front_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiNap_Sleepwatch_front_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		648963962A4F63D900C7FA5D /* Sleep_button_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_button_screen.swift; sourceTree = "<group>"; };
-		648963982A4F641C00C7FA5D /* Wakeup_button_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wakeup_button_screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +120,6 @@
 			children = (
 				648963622A4F57DA00C7FA5D /* MiNap_Sleepwatch_frontApp.swift */,
 				648963642A4F57DA00C7FA5D /* ContentView.swift */,
-				648963962A4F63D900C7FA5D /* Sleep_button_screen.swift */,
-				648963982A4F641C00C7FA5D /* Wakeup_button_screen.swift */,
 				648963662A4F57DC00C7FA5D /* Assets.xcassets */,
 				648963682A4F57DC00C7FA5D /* Preview Content */,
 			);
@@ -316,8 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				648963652A4F57DA00C7FA5D /* ContentView.swift in Sources */,
-				648963972A4F63D900C7FA5D /* Sleep_button_screen.swift in Sources */,
-				648963992A4F641C00C7FA5D /* Wakeup_button_screen.swift in Sources */,
 				648963632A4F57DA00C7FA5D /* MiNap_Sleepwatch_frontApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
