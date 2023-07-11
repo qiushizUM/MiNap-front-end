@@ -34,8 +34,8 @@ struct SleepScreen: View {
                 .font(.system(size: 100))
                 .rotationEffect(Angle.degrees(animate ? 360 : 0))
             
-            Text("Sleep")
-                .font(.title)
+            Text("Going to Sleep?")
+                .font(.system(size: 25))
             
             Button("Go to sleep") {
                 animate = true
@@ -71,8 +71,8 @@ struct WakeupScreen: View {
                 .font(.system(size: 100))
                 .rotationEffect(Angle.degrees(animate ? 360 : 0))
             
-            Text("Wake up")
-                .font(.title)
+            Text("Trying to wakup?")
+                .font(.system(size: 25))
             
             Button("Wake up") {
                 animate = true
